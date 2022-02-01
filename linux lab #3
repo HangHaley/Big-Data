@@ -1,0 +1,653 @@
+Script started on 2022-01-30 21:39:15-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="50"]
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cd ..
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI[00m$ cd /root
+bash: cd: /root: Permission denied
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI[00m$  cd /
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ ls -l
+total 624
+lrwxrwxrwx  1 root root      7 Aug 19 17:39 [0m[01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:52 [01;34mboot[0m
+drwxr-xr-x  1 root root   4096 Jan 30 21:22 [01;34mdev[0m
+drwxr-xr-x  1 root root   4096 Jan 30 21:22 [01;34metc[0m
+drwxr-xr-x  1 root root   4096 Jan 25 21:12 [01;34mhome[0m
+-rwxr-xr-x  1 root root 636192 Dec 17 15:17 [01;32minit[0m
+lrwxrwxrwx  1 root root      7 Aug 19 17:39 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx  1 root root      9 Aug 19 17:39 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx  1 root root      9 Aug 19 17:39 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx  1 root root     10 Aug 19 17:39 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:40 [01;34mmedia[0m
+drwxr-xr-x  1 root root   4096 Jan 25 21:09 [01;34mmnt[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:40 [01;34mopt[0m
+dr-xr-xr-x 15 root root      0 Jan 30 21:22 [01;34mproc[0m
+drwx------  1 root root   4096 Aug 19 17:43 [01;34mroot[0m
+drwxr-xr-x  1 root root   4096 Jan 30 21:22 [01;34mrun[0m
+lrwxrwxrwx  1 root root      8 Aug 19 17:39 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:43 [01;34msnap[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:40 [01;34msrv[0m
+dr-xr-xr-x 12 root root      0 Jan 30 21:22 [01;34msys[0m
+drwxrwxrwt  1 root root   4096 Jan 30 17:16 [30;42mtmp[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:42 [01;34musr[0m
+drwxr-xr-x  1 root root   4096 Aug 19 17:43 [01;34mvar[0m
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ ls /etc
+[0m[01;34mNetworkManager[0m                 [01;34mdhcp[0m             legal                overlayroot.conf         shadow
+[01;34mPackageKit[0m                     [01;34mdpkg[0m             libaudit.conf        overlayroot.local.conf   shadow-
+[01;34mX11[0m                            e2scrub.conf     [01;34mlibblockdev[0m          pam.conf                 shells
+adduser.conf                   ec2_version      locale.alias         [01;34mpam.d[0m                    [01;34mskel[0m
+[01;34malternatives[0m                   environment      locale.gen           passwd                   [01;34msos[0m
+[01;34mapparmor[0m                       ethertypes       [01;36mlocaltime[0m            passwd-                  [01;34mssh[0m
+[01;34mapparmor.d[0m                     [01;34mfonts[0m            [01;34mlogcheck[0m             [01;34mperl[0m                     [01;34mssl[0m
+[01;34mapport[0m                         fstab            login.defs           [01;34mpki[0m                      subgid
+[01;34mapt[0m                            fuse.conf        logrotate.conf       [01;34mpm[0m                       subgid-
+at.deny                        [01;34mfwupd[0m            [01;34mlogrotate.d[0m          [01;34mpolkit-1[0m                 subuid
+bash.bashrc                    gai.conf         lsb-release          [01;34mpollinate[0m                subuid-
+bash_completion                [01;34mgroff[0m            ltrace.conf          popularity-contest.conf  sudoers
+[01;34mbash_completion.d[0m              group            [01;34mlvm[0m                  profile                  [01;34msudoers.d[0m
+bindresvport.blacklist         group-           [01;34mlynx[0m                 [01;34mprofile.d[0m                sysctl.conf
+[01;34mbinfmt.d[0m                       gshadow          machine-id           protocols                [01;34msysctl.d[0m
+[01;34mbyobu[0m                          gshadow-         magic                [01;34mpulse[0m                    [01;34msystemd[0m
+[01;34mca-certificates[0m                [01;34mgss[0m              magic.mime           [01;34mpython3[0m                  [01;34mterminfo[0m
+ca-certificates.conf           hdparm.conf      mailcap              [01;34mpython3.8[0m                timezone
+ca-certificates.conf.dpkg-old  host.conf        mailcap.order        [01;34mrc0.d[0m                    [01;34mtmpfiles.d[0m
+[01;34mcalendar[0m                       hostname         manpath.config       [01;34mrc1.d[0m                    [01;34mubuntu-advantage[0m
+[01;34mcloud[0m                          hosts            [01;34mmdadm[0m                [01;34mrc2.d[0m                    ucf.conf
+[01;34mconsole-setup[0m                  hosts.allow      mime.types           [01;34mrc3.d[0m                    [01;34mudev[0m
+[01;34mcron.d[0m                         hosts.deny       mke2fs.conf          [01;34mrc4.d[0m                    [01;34mudisks2[0m
+[01;34mcron.daily[0m                     [01;34minit.d[0m           [01;34mmodprobe.d[0m           [01;34mrc5.d[0m                    [01;34mufw[0m
+[01;34mcron.hourly[0m                    [01;34minitramfs-tools[0m  modules              [01;34mrc6.d[0m                    [01;34mupdate-manager[0m
+[01;34mcron.monthly[0m                   inputrc          [01;34mmodules-load.d[0m       [01;34mrcS.d[0m                    [01;34mupdate-motd.d[0m
+[01;34mcron.weekly[0m                    [01;34miproute2[0m         [01;36mmtab[0m                 [01;36mresolv.conf[0m              [01;34mupdate-notifier[0m
+crontab                        [01;34miscsi[0m            multipath.conf       [01;36mrmt[0m                      [01;34mvim[0m
+[01;34mcryptsetup-initramfs[0m           issue            nanorc               rpc                      [01;34mvmware-tools[0m
+crypttab                       issue.net        [01;34mnetplan[0m              rsyslog.conf             [01;36mvtrgb[0m
+[01;34mdbus-1[0m                         [01;34mkernel[0m           [01;34mnetwork[0m              [01;34mrsyslog.d[0m                [01;34mvulkan[0m
+[01;34mdconf[0m                          kernel-img.conf  [01;34mnetworkd-dispatcher[0m  screenrc                 wgetrc
+debconf.conf                   [01;34mlandscape[0m        networks             [01;34msecurity[0m                 xattr.conf
+debian_version                 ld.so.cache      [01;34mnewt[0m                 [01;34mselinux[0m                  [01;34mxdg[0m
+[01;34mdefault[0m                        ld.so.conf       nsswitch.conf        [01;34msensors.d[0m                zsh_command_not_found
+deluser.conf                   [01;34mld.so.conf.d[0m     [01;34mopt[0m                  sensors3.conf
+[01;34mdepmod.d[0m                       [01;34mldap[0m             [01;36mos-release[0m           services
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ ls /bin
+ [0m[01;36mNF[0m                                   [01;36miscsiadm[0m                           [01;32msetleds[0m
+ [01;32mVGAuthService[0m                        [01;32mjoin[0m                               [01;32msetlogcons[0m
+ [01;36mX11[0m                                  [01;32mjournalctl[0m                         [01;32msetmetamode[0m
+[01;32m'['[0m                                   [01;32mjson_pp[0m                            [01;32msetpci[0m
+ [01;32maa-enabled[0m                           [01;36mjsondiff[0m                           [01;32msetpriv[0m
+ [01;32maa-exec[0m                              [01;32mjsonpatch[0m                          [01;32msetsid[0m
+ [01;32madd-apt-repository[0m                   [01;32mjsonpatch-jsondiff[0m                 [01;32msetterm[0m
+ [01;32maddpart[0m                              [01;32mjsonpointer[0m                        [01;32msetupcon[0m
+ [01;32mapport-bug[0m                           [01;32mjsonschema[0m                         [01;32msftp[0m
+ [01;32mapport-cli[0m                           [01;32mkbd_mode[0m                           [01;36msg[0m
+ [01;36mapport-collect[0m                       [01;32mkbdinfo[0m                            [01;32msg_bg_ctl[0m
+ [01;32mapport-unpack[0m                        [01;32mkbxutil[0m                            [01;32msg_compare_and_write[0m
+ [01;32mappres[0m                               [01;36mkeep-one-running[0m                   [01;32msg_copy_results[0m
+ [01;36mapropos[0m                              [01;32mkernel-install[0m                     [01;32msg_dd[0m
+ [01;32mapt[0m                                  [01;32mkeyring[0m                            [01;32msg_decode_sense[0m
+ [01;36mapt-add-repository[0m                   [01;32mkill[0m                               [01;32msg_emc_trespass[0m
+ [01;32mapt-cache[0m                            [01;32mkillall[0m                            [01;32msg_format[0m
+ [01;32mapt-cdrom[0m                            [01;32mkmod[0m                               [01;32msg_get_config[0m
+ [01;32mapt-config[0m                           [01;32mkmodsign[0m                           [01;32msg_get_lba_status[0m
+ [01;32mapt-extracttemplates[0m                 [01;32mlandscape-sysinfo[0m                  [01;32msg_ident[0m
+ [01;32mapt-ftparchive[0m                       [01;32mlast[0m                               [01;32msg_inq[0m
+ [01;32mapt-get[0m                              [01;36mlastb[0m                              [01;32msg_logs[0m
+ [01;32mapt-key[0m                              [01;32mlastlog[0m                            [01;32msg_luns[0m
+ [01;32mapt-mark[0m                             [01;32mlcf[0m                                [01;32msg_map[0m
+ [01;32mapt-sortpkgs[0m                         [01;32mldd[0m                                [01;32msg_map26[0m
+ [01;32march[0m                                 [01;32mless[0m                               [01;32msg_modes[0m
+ [37;41mat[0m                                   [01;32mlessecho[0m                           [01;32msg_opcodes[0m
+ [01;36matq[0m                                  [01;36mlessfile[0m                           [01;32msg_persist[0m
+ [01;36matrm[0m                                 [01;32mlesskey[0m                            [01;32msg_prevent[0m
+ [01;32mautomat-visualize3[0m                   [01;32mlesspipe[0m                           [01;32msg_raw[0m
+ [01;36mawk[0m                                  [01;32mlexgrog[0m                            [01;32msg_rbuf[0m
+ [01;32mb2sum[0m                                [01;32mlibnetcfg[0m                          [01;32msg_rdac[0m
+ [01;32mbase32[0m                               [01;32mlink[0m                               [01;32msg_read[0m
+ [01;32mbase64[0m                               [01;32mlinux-check-removal[0m                [01;32msg_read_attr[0m
+ [01;32mbasename[0m                             [01;32mlinux-update-symlinks[0m              [01;32msg_read_block_limits[0m
+ [01;32mbash[0m                                 [01;32mlinux-version[0m                      [01;32msg_read_buffer[0m
+ [01;32mbashbug[0m                              [01;36mlinux32[0m                            [01;32msg_read_long[0m
+ [01;32mbatch[0m                                [01;36mlinux64[0m                            [01;32msg_readcap[0m
+ [01;32mbc[0m                                   [01;32mlistres[0m                            [01;32msg_reassign[0m
+ [01;32mboltctl[0m                              [01;32mln[0m                                 [01;32msg_referrals[0m
+ [01;32mbootctl[0m                              [01;32mlnstat[0m                             [01;32msg_rep_zones[0m
+ [01;32mbsd-from[0m                             [01;32mloadkeys[0m                           [01;32msg_requests[0m
+ [30;43mbsd-write[0m                            [01;32mloadunimap[0m                         [01;32msg_reset[0m
+ [01;32mbtrfs[0m                                [01;32mlocale[0m                             [01;32msg_reset_wp[0m
+ [01;32mbtrfs-convert[0m                        [01;32mlocale-check[0m                       [01;32msg_rmsn[0m
+ [01;32mbtrfs-find-root[0m                      [01;32mlocalectl[0m                          [01;32msg_rtpg[0m
+ [01;32mbtrfs-image[0m                          [01;32mlocaledef[0m                          [01;32msg_safte[0m
+ [01;32mbtrfs-map-logical[0m                    [01;32mlogger[0m                             [01;32msg_sanitize[0m
+ [01;32mbtrfs-select-super[0m                   [01;32mlogin[0m                              [01;32msg_sat_identify[0m
+ [01;36mbtrfsck[0m                              [01;32mloginctl[0m                           [01;32msg_sat_phy_event[0m
+ [01;32mbtrfstune[0m                            [01;32mlogname[0m                            [01;32msg_sat_read_gplog[0m
+ [01;32mbunzip2[0m                              [01;32mlook[0m                               [01;32msg_sat_set_features[0m
+ [01;32mbusctl[0m                               [01;32mlorder[0m                             [01;32msg_scan[0m
+ [01;32mbusybox[0m                              [01;32mlowntfs-3g[0m                         [01;32msg_seek[0m
+ [01;32mbyobu[0m                                [01;32mls[0m                                 [01;32msg_senddiag[0m
+ [01;32mbyobu-config[0m                         [01;32mlsattr[0m                             [01;32msg_ses[0m
+ [01;32mbyobu-ctrl-a[0m                         [01;32mlsb_release[0m                        [01;32msg_ses_microcode[0m
+ [01;32mbyobu-disable[0m                        [01;32mlsblk[0m                              [01;32msg_start[0m
+ [01;32mbyobu-disable-prompt[0m                 [01;32mlscpu[0m                              [01;32msg_stpg[0m
+ [01;32mbyobu-enable[0m                         [01;32mlshw[0m                               [01;32msg_stream_ctl[0m
+ [01;32mbyobu-enable-prompt[0m                  [01;32mlsinitramfs[0m                        [01;32msg_sync[0m
+ [01;32mbyobu-export[0m                         [01;32mlsipc[0m                              [01;32msg_test_rwbuf[0m
+ [01;32mbyobu-janitor[0m                        [01;32mlslocks[0m                            [01;32msg_timestamp[0m
+ [01;32mbyobu-keybindings[0m                    [01;32mlslogins[0m                           [01;32msg_turs[0m
+ [01;32mbyobu-launch[0m                         [01;32mlsmem[0m                              [01;32msg_unmap[0m
+ [01;32mbyobu-launcher[0m                       [01;36mlsmod[0m                              [01;32msg_verify[0m
+ [01;32mbyobu-launcher-install[0m               [01;32mlsns[0m                               [01;32msg_vpd[0m
+ [01;32mbyobu-launcher-uninstall[0m             [01;32mlsof[0m                               [01;32msg_wr_mode[0m
+ [01;32mbyobu-layout[0m                         [01;32mlspci[0m                              [01;32msg_write_buffer[0m
+ [01;32mbyobu-prompt[0m                         [01;32mlspgpot[0m                            [01;32msg_write_long[0m
+ [01;32mbyobu-quiet[0m                          [01;32mlsusb[0m                              [01;32msg_write_same[0m
+ [01;32mbyobu-reconnect-sockets[0m              [01;32mltrace[0m                             [01;32msg_write_verify[0m
+ [01;36mbyobu-screen[0m                         [01;32mluit[0m                               [01;32msg_write_x[0m
+ [01;32mbyobu-select-backend[0m                 [01;32mlynx[0m                               [01;32msg_xcopy[0m
+ [01;32mbyobu-select-profile[0m                 [01;32mlz4[0m                                [01;32msg_zone[0m
+ [01;32mbyobu-select-session[0m                 [01;36mlz4c[0m                               [01;32msginfo[0m
+ [01;32mbyobu-shell[0m                          [01;36mlz4cat[0m                             [01;32msgm_dd[0m
+ [01;32mbyobu-silent[0m                         [01;36mlzcat[0m                              [01;32msgp_dd[0m
+ [01;32mbyobu-status[0m                         [01;36mlzcmp[0m                              [01;36msh[0m
+ [01;32mbyobu-status-detail[0m                  [01;36mlzdiff[0m                             [01;32msha1sum[0m
+ [01;36mbyobu-tmux[0m                           [01;36mlzegrep[0m                            [01;32msha224sum[0m
+ [01;32mbyobu-ugraph[0m                         [01;36mlzfgrep[0m                            [01;32msha256sum[0m
+ [01;32mbyobu-ulevel[0m                         [01;36mlzgrep[0m                             [01;32msha384sum[0m
+ [01;32mbzcat[0m                                [01;36mlzless[0m                             [01;32msha512sum[0m
+ [01;36mbzcmp[0m                                [01;36mlzma[0m                               [01;32mshasum[0m
+ [01;32mbzdiff[0m                               [01;32mlzmainfo[0m                           [01;32mshowconsolefont[0m
+ [01;36mbzegrep[0m                              [01;36mlzmore[0m                             [01;32mshowkey[0m
+ [01;32mbzexe[0m                                [01;32mmailmail3[0m                          [01;32mshred[0m
+ [01;36mbzfgrep[0m                              [01;32mman[0m                                [01;32mshuf[0m
+ [01;32mbzgrep[0m                               [01;32mman-recode[0m                         [01;32mskill[0m
+ [01;32mbzip2[0m                                [01;32mmandb[0m                              [01;32mslabtop[0m
+ [01;32mbzip2recover[0m                         [01;32mmanifest[0m                           [01;32msleep[0m
+ [01;36mbzless[0m                               [01;32mmanpath[0m                            [01;36mslogin[0m
+ [01;32mbzmore[0m                               [01;32mmapscrn[0m                            [01;32msnap[0m
+ [01;32mc_rehash[0m                             [01;32mmawk[0m                               [01;36msnapctl[0m
+ [01;36mcal[0m                                  [01;32mmcookie[0m                            [01;32msnapfuse[0m
+ [01;32mcalendar[0m                             [01;32mmd5sum[0m                             [01;36msnice[0m
+ [01;36mcaptoinfo[0m                            [01;36mmd5sum.textutils[0m                   [01;32msoelim[0m
+ [01;32mcat[0m                                  [01;32mmdig[0m                               [01;32msort[0m
+ [01;32mcatchsegv[0m                            [01;32mmesa-overlay-control.py[0m            [01;32msos[0m
+ [01;32mcatman[0m                               [01;32mmesg[0m                               [01;32msos-collector[0m
+ [01;32mcautious-launcher[0m                    [01;32mmigrate-pubring-from-classic-gpg[0m   [01;32msosreport[0m
+ [01;32mcftp3[0m                                [01;32mminiterm[0m                           [01;32msplain[0m
+ [30;43mchage[0m                                [01;32mmk_modmap[0m                          [01;32msplit[0m
+ [01;36mchardet3[0m                             [01;32mmkdir[0m                              [01;32msplitfont[0m
+ [01;32mchardetect3[0m                          [01;32mmkfifo[0m                             [01;32mss[0m
+ [01;32mchattr[0m                               [01;32mmknod[0m                              [01;32mssh[0m
+ [01;32mchcon[0m                                [01;32mmksquashfs[0m                         [01;32mssh-add[0m
+ [01;32mcheck-language-support[0m               [01;32mmktemp[0m                             [30;43mssh-agent[0m
+ [37;41mchfn[0m                                 [01;32mmore[0m                               [01;32mssh-argv0[0m
+ [01;32mchgrp[0m                                [37;41mmount[0m                              [01;32mssh-copy-id[0m
+ [01;32mchmod[0m                                [01;32mmountpoint[0m                         [01;32mssh-import-id[0m
+ [01;32mchoom[0m                                [01;36mmt[0m                                 [01;32mssh-import-id-gh[0m
+ [01;32mchown[0m                                [01;32mmt-gnu[0m                             [01;32mssh-import-id-lp[0m
+ [01;32mchrt[0m                                 [01;32mmtr[0m                                [01;32mssh-keygen[0m
+ [37;41mchsh[0m                                 [01;32mmtr-packet[0m                         [01;32mssh-keyscan[0m
+ [01;32mchvt[0m                                 [01;32mmv[0m                                 [01;32mstat[0m
+ [01;32mckbcomp[0m                              [01;32mnamei[0m                              [01;36mstatic-sh[0m
+ [01;32mckeygen3[0m                             [01;32mnano[0m                               [01;32mstdbuf[0m
+ [01;32mcksum[0m                                [01;36mnawk[0m                               [01;32mstrace[0m
+ [01;32mclear[0m                                [01;36mnc[0m                                 [01;32mstrace-log-merge[0m
+ [01;32mclear_console[0m                        [01;32mnc.openbsd[0m                         [01;32mstty[0m
+ [01;32mcloud-id[0m                             [01;32mncal[0m                               [37;41msu[0m
+ [01;32mcloud-init[0m                           [01;32mneqn[0m                               [37;41msudo[0m
+ [01;32mcloud-init-per[0m                       [01;36mnetcat[0m                             [01;36msudoedit[0m
+ [01;32mcmp[0m                                  [01;32mnetkit-ftp[0m                         [01;32msudoreplay[0m
+ [01;32mcodepage[0m                             [01;32mnetworkctl[0m                         [01;32msum[0m
+ [01;32mcol[0m                                  [01;32mnetworkd-dispatcher[0m                [01;32msymcryptrun[0m
+ [01;32mcol1[0m                                 [37;41mnewgrp[0m                             [01;32msync[0m
+ [01;36mcol2[0m                                 [01;32mngettext[0m                           [01;32msystemctl[0m
+ [01;36mcol3[0m                                 [01;32mnice[0m                               [01;36msystemd[0m
+ [01;36mcol4[0m                                 [01;36mnisdomainname[0m                      [01;32msystemd-analyze[0m
+ [01;36mcol5[0m                                 [01;32mnl[0m                                 [01;32msystemd-ask-password[0m
+ [01;36mcol6[0m                                 [01;32mnohup[0m                              [01;32msystemd-cat[0m
+ [01;36mcol7[0m                                 [01;32mnproc[0m                              [01;32msystemd-cgls[0m
+ [01;36mcol8[0m                                 [01;32mnroff[0m                              [01;32msystemd-cgtop[0m
+ [01;36mcol9[0m                                 [01;32mnsenter[0m                            [01;32msystemd-delta[0m
+ [01;32mcolcrt[0m                               [01;32mnslookup[0m                           [01;32msystemd-detect-virt[0m
+ [01;32mcolrm[0m                                [01;32mnstat[0m                              [01;32msystemd-escape[0m
+ [01;32mcolumn[0m                               [01;32mnsupdate[0m                           [01;32msystemd-hwdb[0m
+ [01;32mcomm[0m                                 [01;32mntfs-3g[0m                            [01;32msystemd-id128[0m
+ [01;36mcompose[0m                              [01;32mntfs-3g.probe[0m                      [01;32msystemd-inhibit[0m
+ [01;32mconch3[0m                               [01;32mntfscat[0m                            [01;32msystemd-machine-id-setup[0m
+ [01;32mcorelist[0m                             [01;32mntfscluster[0m                        [01;32msystemd-mount[0m
+ [01;32mcp[0m                                   [01;32mntfscmp[0m                            [01;32msystemd-notify[0m
+ [01;32mcpan[0m                                 [01;32mntfsdecrypt[0m                        [01;32msystemd-path[0m
+ [01;32mcpan5.30-x86_64-linux-gnu[0m            [01;32mntfsfallocate[0m                      [01;36msystemd-resolve[0m
+ [01;32mcpio[0m                                 [01;32mntfsfix[0m                            [01;32msystemd-run[0m
+ [30;43mcrontab[0m                              [01;32mntfsinfo[0m                           [01;32msystemd-socket-activate[0m
+ [01;32mcsplit[0m                               [01;32mntfsls[0m                             [01;32msystemd-stdio-bridge[0m
+ [01;32mctail[0m                                [01;32mntfsmove[0m                           [01;32msystemd-sysusers[0m
+ [01;36mctstat[0m                               [01;32mntfsrecover[0m                        [01;32msystemd-tmpfiles[0m
+ [01;32mcurl[0m                                 [01;32mntfssecaudit[0m                       [01;32msystemd-tty-ask-password-agent[0m
+ [01;32mcut[0m                                  [01;32mntfstruncate[0m                       [01;36msystemd-umount[0m
+ [01;32mcvtsudoers[0m                           [01;32mntfsusermap[0m                        [01;32mtabs[0m
+ [01;32mdash[0m                                 [01;32mntfswipe[0m                           [01;32mtac[0m
+ [01;32mdate[0m                                 [01;32mnumfmt[0m                             [01;32mtail[0m
+ [01;32mdbus-cleanup-sockets[0m                 [01;32mod[0m                                 [01;32mtar[0m
+ [01;32mdbus-daemon[0m                          [01;32moem-getlogs[0m                        [01;32mtaskset[0m
+ [01;32mdbus-launch[0m                          [01;36mon_ac_power[0m                        [01;32mtbl[0m
+ [01;32mdbus-monitor[0m                         [01;32mopenssl[0m                            [01;32mtee[0m
+ [01;32mdbus-run-session[0m                     [01;32mopenvt[0m                             [01;36mtelnet[0m
+ [01;32mdbus-send[0m                            [01;32mpa-info[0m                            [01;32mtelnet.netkit[0m
+ [01;32mdbus-update-activation-environment[0m   [01;32mpacat[0m                              [01;32mtempfile[0m
+ [01;32mdbus-uuidgen[0m                         [01;32mpacmd[0m                              [01;32mtest[0m
+ [01;32mdbxtool[0m                              [01;32mpactl[0m                              [01;32mtic[0m
+ [01;32mdd[0m                                   [01;32mpadsp[0m                              [01;32mtime[0m
+ [01;32mdeallocvt[0m                            [01;36mpager[0m                              [01;32mtimedatectl[0m
+ [01;32mdeb-systemd-helper[0m                   [01;36mpamon[0m                              [01;32mtimeout[0m
+ [01;32mdeb-systemd-invoke[0m                   [01;36mpaplay[0m                             [01;32mtkconch3[0m
+ [01;32mdebconf[0m                              [01;36mparec[0m                              [01;32mtload[0m
+ [01;32mdebconf-apt-progress[0m                 [01;36mparecord[0m                           [01;32mtmux[0m
+ [01;32mdebconf-communicate[0m                  [01;32mpartx[0m                              [01;32mtoe[0m
+ [01;32mdebconf-copydb[0m                       [37;41mpasswd[0m                             [01;32mtop[0m
+ [01;32mdebconf-escape[0m                       [01;32mpaste[0m                              [01;32mtouch[0m
+ [01;32mdebconf-set-selections[0m               [01;32mpastebinit[0m                         [01;32mtput[0m
+ [01;32mdebconf-show[0m                         [01;32mpasuspender[0m                        [01;32mtr[0m
+ [01;32mdebian-distro-info[0m                   [01;32mpatch[0m                              [01;32mtracepath[0m
+ [01;32mdelpart[0m                              [01;32mpathchk[0m                            [01;36mtraceroute6[0m
+ [01;32mdelv[0m                                 [01;32mpax11publish[0m                       [01;32mtraceroute6.iputils[0m
+ [01;32mdf[0m                                   [01;36mpbget[0m                              [01;32mtree[0m
+ [01;32mdfu-tool[0m                             [01;32mpbput[0m                              [01;32mtrial3[0m
+ [01;32mdh_bash-completion[0m                   [01;36mpbputs[0m                             [01;32mtroff[0m
+ [01;32mdiff[0m                                 [01;36mpdb3[0m                               [01;32mtrue[0m
+ [01;32mdiff3[0m                                [01;36mpdb3.8[0m                             [01;32mtruncate[0m
+ [01;32mdig[0m                                  [01;32mpeekfd[0m                             [01;32mtset[0m
+ [01;32mdir[0m                                  [01;32mperl[0m                               [01;32mtsort[0m
+ [01;32mdircolors[0m                            [01;32mperl5.30-x86_64-linux-gnu[0m          [01;32mtty[0m
+ [01;32mdirmngr[0m                              [01;32mperl5.30.0[0m                         [01;32mtwist3[0m
+ [01;32mdirmngr-client[0m                       [01;32mperlbug[0m                            [01;32mtwistd3[0m
+ [01;32mdirname[0m                              [01;32mperldoc[0m                            [01;32mtzselect[0m
+ [01;36mdistro-info[0m                          [01;32mperlivp[0m                            [01;36mua[0m
+ [01;32mdmesg[0m                                [01;32mperlthanks[0m                         [01;32mubuntu-advantage[0m
+ [01;36mdnsdomainname[0m                        [01;36mpftp[0m                               [01;36mubuntu-bug[0m
+ [01;32mdo-release-upgrade[0m                   [01;32mpgrep[0m                              [01;36mubuntu-core-launcher[0m
+ [01;36mdomainname[0m                           [01;32mpic[0m                                [01;32mubuntu-distro-info[0m
+ [01;32mdpkg[0m                                 [01;36mpico[0m                               [01;32mubuntu-security-status[0m
+ [01;32mdpkg-deb[0m                             [01;32mpiconv[0m                             [01;32mucf[0m
+ [01;32mdpkg-divert[0m                          [01;36mpidof[0m                              [01;32mucfq[0m
+ [01;32mdpkg-maintscript-helper[0m              [01;36mpinentry[0m                           [01;32mucfr[0m
+ [01;32mdpkg-query[0m                           [01;32mpinentry-curses[0m                    [01;32mudevadm[0m
+ [01;32mdpkg-split[0m                           [01;32mping[0m                               [01;32mudisksctl[0m
+ [01;32mdpkg-statoverride[0m                    [01;36mping4[0m                              [01;32mul[0m
+ [01;32mdpkg-trigger[0m                         [01;36mping6[0m                              [01;32mulockmgr_server[0m
+ [01;32mdu[0m                                   [01;32mpinky[0m                              [37;41mumount[0m
+ [01;32mdumpkeys[0m                             [01;32mpkaction[0m                           [01;32muname[0m
+ [01;32meatmydata[0m                            [01;32mpkcheck[0m                            [01;32munattended-upgrade[0m
+ [01;32mec2metadata[0m                          [01;32mpkcon[0m                              [01;36munattended-upgrades[0m
+ [01;32mecho[0m                                 [37;41mpkexec[0m                             [01;32muncompress[0m
+ [01;32med[0m                                   [01;36mpkill[0m                              [01;32munexpand[0m
+ [01;36medit[0m                                 [01;32mpkmon[0m                              [01;32municode_start[0m
+ [01;36meditor[0m                               [01;32mpkttyagent[0m                         [01;32municode_stop[0m
+ [01;32meditres[0m                              [01;32mpl2pm[0m                              [01;32muniq[0m
+ [01;32megrep[0m                                [01;32mpldd[0m                               [01;32munlink[0m
+ [01;32meject[0m                                [01;32mplymouth[0m                           [01;36munlz4[0m
+ [01;32menc2xs[0m                               [01;32mpmap[0m                               [01;36munlzma[0m
+ [01;32mencguess[0m                             [01;32mpod2html[0m                           [01;32munmkinitramfs[0m
+ [01;32menv[0m                                  [01;32mpod2man[0m                            [01;32munshare[0m
+ [01;32menvsubst[0m                             [01;32mpod2text[0m                           [01;32munsquashfs[0m
+ [01;32meqn[0m                                  [01;32mpod2usage[0m                          [01;36munxz[0m
+ [01;36mex[0m                                   [01;32mpodchecker[0m                         [01;32mupdate-alternatives[0m
+ [01;32mexpand[0m                               [01;32mpodselect[0m                          [01;32mupdate-mime-database[0m
+ [30;43mexpiry[0m                               [01;32mpollinate[0m                          [01;32muptime[0m
+ [01;32mexpr[0m                                 [01;32mpr[0m                                 [01;32musb-devices[0m
+ [01;32mfactor[0m                               [01;32mpreconv[0m                            [01;32musbhid-dump[0m
+ [01;32mfaillog[0m                              [01;36mprint[0m                              [01;32musbreset[0m
+ [01;32mfallocate[0m                            [01;32mprintenv[0m                           [01;32musers[0m
+ [01;32mfalse[0m                                [01;32mprinterbanner[0m                      [01;32mutmpdump[0m
+ [01;32mfgconsole[0m                            [01;32mprintf[0m                             [01;32muuidgen[0m
+ [01;32mfgrep[0m                                [01;32mprlimit[0m                            [01;32muuidparse[0m
+ [01;32mfile[0m                                 [01;32mprove[0m                              [01;32mvcs-run[0m
+ [01;32mfinalrd[0m                              [01;32mprtstat[0m                            [01;32mvdir[0m
+ [01;32mfincore[0m                              [01;32mps[0m                                 [01;36mvi[0m
+ [01;32mfind[0m                                 [01;36mpsfaddtable[0m                        [01;36mview[0m
+ [01;32mfindmnt[0m                              [01;36mpsfgettable[0m                        [01;32mviewres[0m
+ [01;32mfinger[0m                               [01;36mpsfstriptable[0m                      [01;32mvigpg[0m
+ [01;32mflock[0m                                [01;32mpsfxtable[0m                          [01;36mvim[0m
+ [01;32mfmt[0m                                  [01;32mpslog[0m                              [01;32mvim.basic[0m
+ [01;32mfold[0m                                 [01;32mpstree[0m                             [01;32mvim.tiny[0m
+ [01;32mfree[0m                                 [01;36mpstree.x11[0m                         [01;36mvimdiff[0m
+ [01;36mfrom[0m                                 [01;32mptar[0m                               [01;32mvimtutor[0m
+ [01;36mftp[0m                                  [01;32mptardiff[0m                           [01;32mvm-support[0m
+ [01;32mfuser[0m                                [01;32mptargrep[0m                           [01;32mvmhgfs-fuse[0m
+ [37;41mfusermount[0m                           [01;32mptx[0m                                [01;32mvmstat[0m
+ [01;32mfwupdagent[0m                           [01;32mpurge-old-kernels[0m                  [01;32mvmtoolsd[0m
+ [01;32mfwupdate[0m                             [01;32mpwd[0m                                [01;32mvmware-alias-import[0m
+ [01;32mfwupdmgr[0m                             [01;32mpwdx[0m                               [01;32mvmware-checkvm[0m
+ [01;32mfwupdtool[0m                            [01;32mpy3clean[0m                           [01;32mvmware-hgfsclient[0m
+ [01;32mfwupdtpmevlog[0m                        [01;32mpy3compile[0m                         [01;32mvmware-namespace-cmd[0m
+ [01;32mgapplication[0m                         [01;36mpy3versions[0m                        [01;32mvmware-rpctool[0m
+ [01;32mgawk[0m                                 [01;36mpydoc3[0m                             [01;32mvmware-toolbox-cmd[0m
+ [01;32mgdbus[0m                                [01;32mpydoc3.8[0m                           [01;32mvmware-vgauth-cmd[0m
+ [01;36mgeqn[0m                                 [01;36mpygettext3[0m                         [01;32mvmware-vmblock-fuse[0m
+ [01;32mgetconf[0m                              [01;32mpygettext3.8[0m                       [01;32mvmware-xferlogs[0m
+ [01;32mgetent[0m                               [01;32mpyhtmlizer3[0m                        [01;32mvolname[0m
+ [01;32mgetkeycodes[0m                          [01;32mpyjwt3[0m                             [01;36mw[0m
+ [01;32mgetopt[0m                               [01;36mpython3[0m                            [01;32mw.procps[0m
+ [01;32mgettext[0m                              [01;32mpython3.8[0m                          [30;43mwall[0m
+ [01;32mgettext.sh[0m                           [01;36mrbash[0m                              [01;32mwatch[0m
+ [01;36mginstall-info[0m                        [01;36mrcp[0m                                [01;32mwatchgnupg[0m
+ [01;32mgio[0m                                  [01;32mrdma[0m                               [01;32mwc[0m
+ [01;36mgio-querymodules[0m                     [01;32mreadlink[0m                           [01;32mwdctl[0m
+ [01;32mgit[0m                                  [01;32mrealpath[0m                           [01;32mwget[0m
+ [01;36mgit-receive-pack[0m                     [01;32mred[0m                                [01;32mwhatis[0m
+ [01;32mgit-shell[0m                            [01;32mrename.ul[0m                          [01;32mwhereis[0m
+ [01;36mgit-upload-archive[0m                   [01;32mrenice[0m                             [01;32mwhich[0m
+ [01;36mgit-upload-pack[0m                      [01;32mrescan-scsi-bus.sh[0m                 [01;32mwhiptail[0m
+ [01;36mglib-compile-schemas[0m                 [01;36mreset[0m                              [01;32mwho[0m
+ [37;41mgpasswd[0m                              [01;32mresizecons[0m                         [01;32mwhoami[0m
+ [01;32mgpg[0m                                  [01;32mresizepart[0m                         [01;32mwifi-status[0m
+ [01;32mgpg-agent[0m                            [01;32mresolvectl[0m                         [01;36mwrite[0m
+ [01;32mgpg-connect-agent[0m                    [01;32mrev[0m                                [01;32mwslfetch[0m
+ [01;32mgpg-wks-server[0m                       [01;32mrgrep[0m                              [01;36mwslpath[0m
+ [01;32mgpg-zip[0m                              [01;36mrlogin[0m                             [01;32mwslsys[0m
+ [01;32mgpgcompose[0m                           [01;32mrm[0m                                 [01;32mwslupath[0m
+ [01;32mgpgconf[0m                              [01;32mrmdir[0m                              [01;32mwslusc[0m
+ [01;32mgpgparsemail[0m                         [01;36mrnano[0m                              [01;32mwslvar[0m
+ [01;32mgpgsm[0m                                [01;32mroutef[0m                             [01;32mwslview[0m
+ [01;32mgpgsplit[0m                             [01;32mroutel[0m                             [01;36mwww-browser[0m
+ [01;32mgpgtar[0m                               [01;36mrrsync[0m                             [01;36mx-www-browser[0m
+ [01;32mgpgv[0m                                 [01;36mrsh[0m                                [01;36mx86_64[0m
+ [01;36mgpic[0m                                 [01;32mrsync[0m                              [01;32mxargs[0m
+ [01;32mgrep[0m                                 [01;36mrtstat[0m                             [01;32mxauth[0m
+ [01;32mgresource[0m                            [01;32mrun-mailcap[0m                        [01;32mxdg-user-dir[0m
+ [01;32mgroff[0m                                [01;32mrun-one[0m                            [01;32mxdg-user-dirs-update[0m
+ [01;32mgrog[0m                                 [01;36mrun-one-constantly[0m                 [01;32mxdpyinfo[0m
+ [01;32mgrops[0m                                [01;36mrun-one-until-failure[0m              [01;32mxdriinfo[0m
+ [01;32mgrotty[0m                               [01;36mrun-one-until-success[0m              [01;32mxev[0m
+ [01;32mgroups[0m                               [01;32mrun-parts[0m                          [01;32mxfd[0m
+ [01;32mgrowpart[0m                             [01;36mrun-this-one[0m                       [01;32mxfontsel[0m
+ [01;32mgsettings[0m                            [01;32mruncon[0m                             [01;32mxkill[0m
+ [01;36mgtbl[0m                                 [01;36mrview[0m                              [01;32mxlsatoms[0m
+ [01;32mgunzip[0m                               [01;36mrvim[0m                               [01;32mxlsclients[0m
+ [01;32mgzexe[0m                                [01;32msavelog[0m                            [01;32mxlsfonts[0m
+ [01;32mgzip[0m                                 [01;32msbattach[0m                           [01;32mxmessage[0m
+ [01;32mh2ph[0m                                 [01;32msbkeysync[0m                          [01;32mxprop[0m
+ [01;32mh2xs[0m                                 [01;32msbsiglist[0m                          [01;32mxsubpp[0m
+ [01;36mhd[0m                                   [01;32msbsign[0m                             [01;32mxvinfo[0m
+ [01;32mhead[0m                                 [01;32msbvarsign[0m                          [01;32mxwininfo[0m
+ [01;32mhelpztags[0m                            [01;32msbverify[0m                           [01;32mxxd[0m
+ [01;32mhexdump[0m                              [01;32mscp[0m                                [01;32mxz[0m
+ [01;32mhost[0m                                 [01;32mscreen[0m                             [01;36mxzcat[0m
+ [01;32mhostid[0m                               [01;32mscreendump[0m                         [01;36mxzcmp[0m
+ [01;32mhostname[0m                             [01;32mscript[0m                             [01;32mxzdiff[0m
+ [01;32mhostnamectl[0m                          [01;32mscriptreplay[0m                       [01;36mxzegrep[0m
+ [01;32mhtop[0m                                 [01;32mscsi_logging_level[0m                 [01;36mxzfgrep[0m
+ [01;32mhwe-support-status[0m                   [01;32mscsi_mandat[0m                        [01;32mxzgrep[0m
+ [01;36mi386[0m                                 [01;32mscsi_readcap[0m                       [01;32mxzless[0m
+ [01;32miconv[0m                                [01;32mscsi_ready[0m                         [01;32mxzmore[0m
+ [01;32mid[0m                                   [01;32mscsi_satl[0m                          [01;32myes[0m
+ [01;32minfo[0m                                 [01;32mscsi_start[0m                         [01;36mypdomainname[0m
+ [01;36minfobrowser[0m                          [01;32mscsi_stop[0m                          [01;32mzcat[0m
+ [01;32minfocmp[0m                              [01;32mscsi_temperature[0m                   [01;32mzcmp[0m
+ [01;36minfotocap[0m                            [01;32msdiff[0m                              [01;32mzdiff[0m
+ [01;32minstall[0m                              [01;32msed[0m                                [01;32mzdump[0m
+ [01;32minstall-info[0m                         [01;36msee[0m                                [01;32mzegrep[0m
+ [01;32minstmodsh[0m                            [01;32mselect-editor[0m                      [01;32mzfgrep[0m
+ [01;32mionice[0m                               [01;32msensible-browser[0m                   [01;32mzforce[0m
+ [01;32mip[0m                                   [01;32msensible-editor[0m                    [01;32mzgrep[0m
+ [01;32mipcmk[0m                                [01;32msensible-pager[0m                     [01;32mzipdetails[0m
+ [01;32mipcrm[0m                                [01;32mseq[0m                                [01;32mzless[0m
+ [01;32mipcs[0m                                 [01;32msetarch[0m                            [01;32mzmore[0m
+ [01;36miptables-xml[0m                         [01;32msetfont[0m                            [01;32mznew[0m
+ [01;32mischroot[0m                             [01;32msetkeycodes[0m
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ ls /sbin
+[0m[01;32maa-remove-unknown[0m      [01;36mebtables[0m                     [01;36miptables-save[0m       [01;32mnologin[0m                [01;36mthin_rmap[0m
+[01;32maa-status[0m              [01;36mebtables-nft[0m                 [01;36miptables-translate[0m  [01;32mntfsclone[0m              [01;36mthin_trim[0m
+[01;32maa-teardown[0m            [01;36mebtables-nft-restore[0m         [01;32mirqbalance[0m          [01;32mntfscp[0m                 [01;32mtipc[0m
+[01;32maccessdb[0m               [01;36mebtables-nft-save[0m            [01;32mirqbalance-ui[0m       [01;32mntfslabel[0m              [01;32mtune2fs[0m
+[01;32madd-shell[0m              [01;36mebtables-restore[0m             [01;32miscsi-iname[0m         [01;32mntfsresize[0m             [01;32mtzconfig[0m
+[01;32maddgnupghome[0m           [01;36mebtables-save[0m                [01;32miscsi_discovery[0m     [01;32mntfsundelete[0m           [01;32mufw[0m
+[01;36maddgroup[0m               [01;36mera_check[0m                    [01;32miscsiadm[0m            [01;32mon_ac_power[0m            [01;32mumount.udisks2[0m
+[01;32madduser[0m                [01;36mera_dump[0m                     [01;32miscsid[0m              [01;32moverlayroot-chroot[0m     [30;43munix_chkpwd[0m
+[01;32magetty[0m                 [01;36mera_invalidate[0m               [01;32miscsistart[0m          [01;32mownership[0m              [01;32munix_update[0m
+[01;32mapparmor_parser[0m        [01;36mera_restore[0m                  [01;32misosize[0m             [01;32mpam-auth-update[0m        [01;32mupdate-ca-certificates[0m
+[01;36mapparmor_status[0m        [01;32methtool[0m                      [01;32mkbdrate[0m             [30;43mpam_extrausers_chkpwd[0m  [01;32mupdate-info-dir[0m
+[01;32mapplygnupgdefaults[0m     [01;32mfaillock[0m                     [01;32mkillall5[0m            [01;32mpam_extrausers_update[0m  [01;32mupdate-initramfs[0m
+[01;32marpd[0m                   [01;32mfatlabel[0m                     [01;32mkpartx[0m              [01;32mpam_getenv[0m             [01;32mupdate-locale[0m
+[01;36marptables[0m              [01;32mfdformat[0m                     [01;32mldattach[0m            [01;32mpam_tally[0m              [01;32mupdate-mime[0m
+[01;36marptables-nft[0m          [01;32mfdisk[0m                        [01;32mldconfig[0m            [01;32mpam_tally2[0m             [01;32mupdate-motd[0m
+[01;36marptables-nft-restore[0m  [01;32mfilefrag[0m                     [01;32mldconfig.real[0m       [01;32mpam_timestamp_check[0m    [01;32mupdate-passwd[0m
+[01;36marptables-nft-save[0m     [01;32mfindfs[0m                       [01;32mlocale-gen[0m          [01;32mparted[0m                 [01;32mupdate-pciids[0m
+[01;36marptables-restore[0m      [01;32mfixparts[0m                     [01;32mlogrotate[0m           [01;32mpartprobe[0m              [01;32mupdate-rc.d[0m
+[01;36marptables-save[0m         [01;32mfsadm[0m                        [01;32mlogsave[0m             [01;32mpdata_tools[0m            [01;32museradd[0m
+[01;32matd[0m                    [01;32mfsck[0m                         [01;32mlosetup[0m             [01;32mpivot_root[0m             [01;32muserdel[0m
+[01;32mbadblocks[0m              [01;32mfsck.btrfs[0m                   [01;36mlsmod[0m               [01;32mplymouthd[0m              [01;32musermod[0m
+[01;32mbcache-super-show[0m      [01;32mfsck.cramfs[0m                  [01;32mluksformat[0m          [01;32mpopcon-largest-unused[0m  [01;32muuidd[0m
+[01;32mbiosdecode[0m             [01;36mfsck.ext2[0m                    [01;36mlvchange[0m            [01;32mpopularity-contest[0m     [01;32mvalidlocale[0m
+[01;32mblkdeactivate[0m          [01;36mfsck.ext3[0m                    [01;36mlvconvert[0m           [01;36mpoweroff[0m               [01;32mvcstime[0m
+[01;32mblkdiscard[0m             [01;36mfsck.ext4[0m                    [01;36mlvcreate[0m            [01;36mpvchange[0m               [01;32mveritysetup[0m
+[01;32mblkid[0m                  [01;32mfsck.fat[0m                     [01;36mlvdisplay[0m           [01;36mpvck[0m                   [01;36mvgcfgbackup[0m
+[01;32mblkzone[0m                [01;32mfsck.minix[0m                   [01;36mlvextend[0m            [01;36mpvcreate[0m               [01;36mvgcfgrestore[0m
+[01;32mblockdev[0m               [01;36mfsck.msdos[0m                   [01;32mlvm[0m                 [01;36mpvdisplay[0m              [01;36mvgchange[0m
+[01;32mbridge[0m                 [01;36mfsck.vfat[0m                    [01;36mlvmconfig[0m           [01;36mpvmove[0m                 [01;36mvgck[0m
+[01;36mcache_check[0m            [01;32mfsck.xfs[0m                     [01;36mlvmdiskscan[0m         [01;36mpvremove[0m               [01;36mvgconvert[0m
+[01;36mcache_dump[0m             [01;32mfsfreeze[0m                     [01;32mlvmdump[0m             [01;36mpvresize[0m               [01;36mvgcreate[0m
+[01;36mcache_metadata_size[0m    [01;32mfstab-decode[0m                 [01;32mlvmpolld[0m            [01;36mpvs[0m                    [01;36mvgdisplay[0m
+[01;36mcache_repair[0m           [01;32mfstrim[0m                       [01;36mlvmsadc[0m             [01;36mpvscan[0m                 [01;36mvgexport[0m
+[01;36mcache_restore[0m          [01;32mgdisk[0m                        [01;36mlvmsar[0m              [01;32mpwck[0m                   [01;36mvgextend[0m
+[01;36mcache_writeback[0m        [01;32mgenl[0m                         [01;36mlvreduce[0m            [01;32mpwconv[0m                 [01;36mvgimport[0m
+[01;32mcapsh[0m                  [01;32mgetcap[0m                       [01;36mlvremove[0m            [01;32mpwunconv[0m               [01;36mvgimportclone[0m
+[01;32mcfdisk[0m                 [01;32mgetpcaps[0m                     [01;36mlvrename[0m            [01;32mraw[0m                    [01;36mvgmerge[0m
+[01;32mcgdisk[0m                 [01;36mgetty[0m                        [01;36mlvresize[0m            [01;32mreadprofile[0m            [01;36mvgmknodes[0m
+[01;32mchcpu[0m                  [01;32mgroupadd[0m                     [01;36mlvs[0m                 [01;36mreboot[0m                 [01;36mvgreduce[0m
+[01;32mchgpasswd[0m              [01;32mgroupdel[0m                     [01;36mlvscan[0m              [01;32mremove-shell[0m           [01;36mvgremove[0m
+[01;32mchmem[0m                  [01;32mgroupmems[0m                    [01;32mmake-bcache[0m         [01;32mresize2fs[0m              [01;36mvgrename[0m
+[01;32mchpasswd[0m               [01;32mgroupmod[0m                     [01;32mmdadm[0m               [01;36mrmmod[0m                  [01;36mvgs[0m
+[01;32mchroot[0m                 [01;32mgrpck[0m                        [01;32mmdmon[0m               [01;36mrmt[0m                    [01;36mvgscan[0m
+[01;36mcpgr[0m                   [01;32mgrpconv[0m                      [01;36mmkdosfs[0m             [01;32mrmt-tar[0m                [01;36mvgsplit[0m
+[01;32mcppw[0m                   [01;32mgrpunconv[0m                    [01;32mmke2fs[0m              [01;32mrsyslogd[0m               [01;36mvigr[0m
+[01;32mcron[0m                   [01;36mhalt[0m                         [01;32mmkfs[0m                [01;32mrtacct[0m                 [01;32mvipw[0m
+[01;32mcryptdisks_start[0m       [01;32mhdparm[0m                       [01;32mmkfs.bfs[0m            [01;32mrtcwake[0m                [01;32mvisudo[0m
+[01;32mcryptdisks_stop[0m        [01;32mhwclock[0m                      [01;32mmkfs.btrfs[0m          [01;32mrtmon[0m                  [01;32mvpddecode[0m
+[01;32mcryptsetup[0m             [01;32miconvconfig[0m                  [01;32mmkfs.cramfs[0m         [01;36mrunlevel[0m               [01;32mwipefs[0m
+[01;32mcryptsetup-reencrypt[0m   [01;36minit[0m                         [01;36mmkfs.ext2[0m           [01;32mrunuser[0m                [01;32mxfs_admin[0m
+[01;32mctrlaltdel[0m             [01;36minsmod[0m                       [01;36mmkfs.ext3[0m           [01;32mservice[0m                [01;32mxfs_bmap[0m
+[01;32mdebugfs[0m                [01;32minstallkernel[0m                [01;36mmkfs.ext4[0m           [01;32msetcap[0m                 [01;32mxfs_copy[0m
+[01;36mdelgroup[0m               [01;32mintegritysetup[0m               [01;32mmkfs.fat[0m            [01;32msetvesablank[0m           [01;32mxfs_db[0m
+[01;32mdeluser[0m                [01;32minvoke-rc.d[0m                  [01;32mmkfs.minix[0m          [01;32msetvtrgb[0m               [01;32mxfs_estimate[0m
+[01;36mdepmod[0m                 [01;36mip[0m                           [01;36mmkfs.msdos[0m          [01;32msfdisk[0m                 [01;32mxfs_freeze[0m
+[01;32mdevlink[0m                [01;36mip6tables[0m                    [01;36mmkfs.ntfs[0m           [01;32msgdisk[0m                 [01;32mxfs_fsr[0m
+[01;32mdhclient[0m               [01;36mip6tables-apply[0m              [01;36mmkfs.vfat[0m           [01;32mshadowconfig[0m           [01;32mxfs_growfs[0m
+[01;32mdhclient-script[0m        [01;36mip6tables-legacy[0m             [01;32mmkfs.xfs[0m            [01;36mshutdown[0m               [01;32mxfs_info[0m
+[01;32mdmeventd[0m               [01;36mip6tables-legacy-restore[0m     [01;32mmkhomedir_helper[0m    [01;32msshd[0m                   [01;32mxfs_io[0m
+[01;32mdmidecode[0m              [01;36mip6tables-legacy-save[0m        [01;32mmkinitramfs[0m         [01;32mstart-stop-daemon[0m      [01;32mxfs_logprint[0m
+[01;32mdmsetup[0m                [01;36mip6tables-nft[0m                [01;32mmklost+found[0m        [01;32msulogin[0m                [01;32mxfs_mdrestore[0m
+[01;36mdmstats[0m                [01;36mip6tables-nft-restore[0m        [01;32mmkntfs[0m              [01;32mswaplabel[0m              [01;32mxfs_metadump[0m
+[01;36mdosfsck[0m                [01;36mip6tables-nft-save[0m           [01;32mmkswap[0m              [01;32mswapoff[0m                [01;32mxfs_mkfile[0m
+[01;36mdosfslabel[0m             [01;36mip6tables-restore[0m            [01;36mmodinfo[0m             [01;32mswapon[0m                 [01;32mxfs_ncheck[0m
+[01;32mdpkg-preconfigure[0m      [01;36mip6tables-restore-translate[0m  [01;36mmodprobe[0m            [01;32mswitch_root[0m            [01;32mxfs_quota[0m
+[01;32mdpkg-reconfigure[0m       [01;36mip6tables-save[0m               [01;36mmount.drvfs[0m         [01;32msysctl[0m                 [01;32mxfs_repair[0m
+[01;32mdumpe2fs[0m               [01;36mip6tables-translate[0m          [01;32mmount.fuse[0m          [01;32mtarcat[0m                 [01;32mxfs_rtcp[0m
+[01;32me2freefrag[0m             [01;36miptables[0m                     [01;36mmount.lowntfs-3g[0m    [01;32mtc[0m                     [01;32mxfs_scrub[0m
+[01;32me2fsck[0m                 [01;32miptables-apply[0m               [01;36mmount.ntfs[0m          [01;32mtcpdump[0m                [01;32mxfs_scrub_all[0m
+[01;32me2image[0m                [01;36miptables-legacy[0m              [01;36mmount.ntfs-3g[0m       [01;36mtelinit[0m                [01;32mxfs_spaceman[0m
+[01;36me2label[0m                [01;36miptables-legacy-restore[0m      [01;32mmount.vmhgfs[0m        [01;36mthin_check[0m             [01;32mxtables-legacy-multi[0m
+[01;36me2mmpstatus[0m            [01;36miptables-legacy-save[0m         [01;32mmpathpersist[0m        [01;36mthin_delta[0m             [01;36mxtables-monitor[0m
+[01;32me2scrub[0m                [01;36miptables-nft[0m                 [01;32mmultipath[0m           [01;36mthin_dump[0m              [01;32mxtables-nft-multi[0m
+[01;32me2scrub_all[0m            [01;36miptables-nft-restore[0m         [01;32mmultipathd[0m          [01;36mthin_ls[0m                [01;32mzerofree[0m
+[01;32me2undo[0m                 [01;36miptables-nft-save[0m            [01;36mnetplan[0m             [01;36mthin_metadata_size[0m     [01;32mzic[0m
+[01;32me4crypt[0m                [01;36miptables-restore[0m             [01;32mnewusers[0m            [01;36mthin_repair[0m            [01;32mzramctl[0m
+[01;32me4defrag[0m               [01;36miptables-restore-translate[0m   [01;32mnfnl_osf[0m            [01;36mthin_restore[0m
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ pwb
+
+Command 'pwb' not found, did you mean:
+
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'pcb' from deb pcb-gtk (1:4.2.2-1)
+  command 'pcb' from deb pcb-lesstif (1:4.2.2-1)
+
+Try: sudo apt install <deb name>
+
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ pwd
+/
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ cd home
+]0;user@LAPTOP-5QTE3JNM: /home[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/home[00m$ cd -
+/
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ cd mnt
+]0;user@LAPTOP-5QTE3JNM: /mnt[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt[00m$ pwb
+
+Command 'pwb' not found, did you mean:
+
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'pcb' from deb pcb-gtk (1:4.2.2-1)
+  command 'pcb' from deb pcb-lesstif (1:4.2.2-1)
+
+Try: sudo apt install <deb name>
+
+]0;user@LAPTOP-5QTE3JNM: /mnt[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt[00m$ pwd
+/mnt
+]0;user@LAPTOP-5QTE3JNM: /mnt[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt[00m$ cd c
+]0;user@LAPTOP-5QTE3JNM: /mnt/c[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c[00m$ cd user
+bash: cd: user: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /mnt/c[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c[00m$ cd Users
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users[00m$ cd HUW[KAWEI/DE[Kesktop
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ ls HUW[KAWEI[K[K[K[K[K[K-a HUWAWEI[K[K[K[K[KAWEI
+ls: cannot access 'HUAWEI': No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ ls[K[Kcd ..
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI[00m$ ls -a
+ [0m[34;42m.[0m                  [01;36m'My Documents'[0m
+ [01;34m..[0m                  [01;32mNTUSER.DAT[0m
+ [34;42m.android[0m            [01;32mNTUSER.DAT{7f8ea9c5-466a-11eb-b007-28cdc456827a}.TM.blf[0m
+ [01;32m.bash_history[0m       [01;32mNTUSER.DAT{7f8ea9c5-466a-11eb-b007-28cdc456827a}.TMContainer00000000000000000001.regtrans-ms[0m
+ [34;42m.conda[0m              [01;32mNTUSER.DAT{7f8ea9c5-466a-11eb-b007-28cdc456827a}.TMContainer00000000000000000002.regtrans-ms[0m
+ [01;32m.condarc[0m            [01;36mNetHood[0m
+ [34;42m.continuum[0m          [34;42mOneDrive[0m
+ [34;42m.git[0m                [01;34mPCManger[0m
+ [34;42m.idlerc[0m             [34;42mPictures[0m
+ [34;42m.ipython[0m            [01;36mPrintHood[0m
+ [34;42m.jupyter[0m            [01;36mRecent[0m
+ [34;42m.matplotlib[0m        [34;42m'Saved Games'[0m
+ [34;42m.spyder-py3[0m         [34;42mSearches[0m
+[34;42m'3D Objects'[0m         [01;36mSendTo[0m
+ [34;42mAppData[0m             [01;36mTemplates[0m
+[01;36m'Application Data'[0m   [34;42mTracing[0m
+ [34;42mContacts[0m            [34;42mVideos[0m
+ [01;36mCookies[0m             [01;32mlinux[0m
+ [34;42mDesktop[0m             [01;32mntuser.dat.LOG1[0m
+ [34;42mDocuments[0m           [01;32mntuser.dat.LOG2[0m
+ [34;42mDownloads[0m           [01;32mntuser.ini[0m
+ [34;42mFavorites[0m           [01;32mtypescript[0m
+ [34;42mLinks[0m               [34;42mwekafiles[0m
+[01;36m'Local Settings'[0m     [01;36m「开始」菜单[0m
+ [34;42mMusic[0m
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI[00m$ mkdir testdir
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI[00m$ cd Desktop 
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ mkdir testdir
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ ls /boot
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cd
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls /boot
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ cd /etc
+]0;user@LAPTOP-5QTE3JNM: /etc[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/etc[00m$  ma[Kkdir newdir
+mkdir: cannot create directory ‘newdir’: Permission denied
+]0;user@LAPTOP-5QTE3JNM: /etc[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/etc[00m$ cd mnt/c/Users/HUW[KAWEI/DESKT[K[K[K[Kesktop
+bash: cd: mnt/c/Users/HUAWEI/Desktop: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /etc[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/etc[00m$ cd 
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ cd mnt/c/Users/huw[K[K[KHUAWEI/Desktop
+bash: cd: mnt/c/Users/HUAWEI/Desktop: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ pwb
+
+Command 'pwb' not found, did you mean:
+
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'pcb' from deb pcb-gtk (1:4.2.2-1)
+  command 'pcb' from deb pcb-lesstif (1:4.2.2-1)
+
+Try: sudo apt install <deb name>
+
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ pwd
+/home/user
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ cd mnt
+bash: cd: mnt: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ cd ..
+]0;user@LAPTOP-5QTE3JNM: /home[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/home[00m$ cd home
+bash: cd: home: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /home[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/home[00m$ cd c[K[K ..
+]0;user@LAPTOP-5QTE3JNM: /[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/[00m$ cd mnt
+]0;user@LAPTOP-5QTE3JNM: /mnt[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt[00m$ cd c/Users
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users[00m$ cd HUAWEI/Desktop
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ mkdir dir1/dir2/dir3
+mkdir: cannot create directory ‘dir1/dir2/dir3’: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ mkdir -p dir1/dir2/dir3
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ rmdir testdir
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ mkdir touched
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ touch touched/today.txt yesterday.txt
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cp yesterday.txt copy.yesterday.txt
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ touch touched/{today,yesterdy[Kay}.txt
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cp [K[K[Kcd touched
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop/touched[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop/touched[00m$ cp yesterday.txt copy.yesterday.txt
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop/touched[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop/touched[00m$ mv copy.yesterday.txt kim
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop/touched[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop/touched[00m$ cd ..
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ mkdir testbackup
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cp -r /touched / testbackup[K[K[K[K[K[K[K[K[K[K[Ktestbackup
+cp: cannot stat '/touched': No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cp -r Desktop/touched /[KDesktop/testbackup
+cp: cannot stat 'Desktop/touched': No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cp -r touched testbackup
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ rmdir testbackup
+rmdir: failed to remove 'testbackup': Directory not empty
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ rm -R testbackup
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cd etc/services
+bash: cd: etc/services: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: /mnt/c/Users/HUAWEI/Desktop[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m/mnt/c/Users/HUAWEI/Desktop[00m$ cd 
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ cd etc/services
+bash: cd: etc/services: No such file or directory
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ pwb
+
+Command 'pwb' not found, did you mean:
+
+  command 'pwd' from deb coreutils (8.30-3ubuntu2)
+  command 'pcb' from deb pcb-gtk (1:4.2.2-1)
+  command 'pcb' from deb pcb-lesstif (1:4.2.2-1)
+
+Try: sudo apt install <deb name>
+
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ pwd
+/home/user
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls /etc/services
+/etc/services
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls -l /etc/services
+-rw-r--r-- 1 root root 14464 Feb 16  2020 /etc/services
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls -l | head -12 /etc/services
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls -l [K|head -n 12 /etc/services
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls -l|tail /etc/passwd
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+user:x:1000:1000:,,,:/home/user:/bin/bash
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ ls -l|tail -n 1 /etc/passwd
+user:x:1000:1000:,,,:/home/user:/bin/bash
+]0;user@LAPTOP-5QTE3JNM: ~[01;32muser@LAPTOP-5QTE3JNM[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-01-30 22:14:28-05:00 [COMMAND_EXIT_CODE="0"]
